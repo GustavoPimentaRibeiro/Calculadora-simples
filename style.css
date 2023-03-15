@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.backg {
+    background-image: linear-gradient(180deg, rgba(212, 149, 30), rgb(212, 148, 30, 0.596));
+    width: 100vw;
+    height: 94.7vh;
+}
+
+.greetings {
+    text-align: center;
+    padding: 9rem 0rem 3rem 0rem;
+}
+
+.calculator {
+    padding: 0.8rem;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: #191b28;
+    box-shadow: rgba(0, 0, 0, 0.21) 10px 5px 10px, rgba(0, 0, 0, 0.40) 0px 10px 10px;
+}
+
+.display-box {
+    font-size: 1.2rem;
+    background-color: #999999;
+    border: solid black 0.5px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 98%;
+    height: 65%;
+}
+
+#btn {
+    background-color: #ec7614;
+    color: #000000;
+    font-size: medium;
+}
+
+#clear, #operators{
+    background-color: #444444;
+    color: #ec7614;
+    font-size: medium;
+}
+
+input[type=button] {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #999999;
+    color: #FFFFFF;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 40px;
+    height: 70%;
+    outline: none;
+}
+
+input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+.autor {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem 0rem 1rem 0rem;
+    text-align: center;
+    background-color: #191b28;
+    color: #FFFFFF;
+}
